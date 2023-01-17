@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Knorth</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat+Alternates:ital,wght@1,900&family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+    <!-- Css style sheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="public/CSS/styles.css" type = "text/css">
+  <nav class="navbar navbar-default">
+    <!-- <div class="container0">
+
+      <div class="navbar-header">
+        <p class="navbar-brand">Knorth</p>
+      </div> -->
+
+      <div class="navbar-header">
+        <!-- <a class="navbar-brand" id = "name0" ><font size = "2">
+          Chenhao Zhu
+        </font></a> -->
+        <h1>Chenhao Zhu</h1>
+      </div>
+
+        <ul class="nav navbar-nav navbar-right">
+          <!-- 6 -->
+          <li id="home"><a  class='nav-link' href='https://www.linkedin.com/in/chenhao-zhu-a6460015b/'>LINKEDIN</a></li>
+
+          <li id="about" class="nav-item dropdown">
+            <a  class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">RESUME</a>
+            <ul class="dropdown-menu">
+              <li><a class="nav-link belownav" href="files/zhuchenhao_resume_2023.pdf">EnglishResume</a></li>
+            </ul>
+          </li>
+
+          <li id="contact"><a  class='nav-link' href='https://littleknorth.xyz/'>BLOG</a></li>
+        </ul>
+    <!-- </div> -->
+  </nav>
+
+  <body>
+    <div class="container">
+
+  <h2>Human To Cartoon Transformation</h2>
+  <p></p>
+  <a type="button" class="btn btn-outline-secondary" href="https://github.com/ChenhaoZhu/human_to_cartoon">Github Codes</a>
+  <p></p>
+  <p>This is a project that transforming human pictures into cartoon images, and also capable of transforming cartoon images into human images.</p>
+    <p>The methods applied is CycleGAN. CycleGAN is primarily used to transform domain of an image into another domain.
+    In this project, we trained two generators and two discriminators to apply cyclegan.
+    Because the training time takes too long, our model does not perform very well on human-cartoon transformation.
+    However, given more time, we will train more and make generator better for transformation.</p>
+    <p>This project originated from the project of "weather classification". At the end of last project, we wanted to use cycleGAN to
+    transformed rainy and foggy images into cloudy images. However, we failed on implementing cycleGAN algorithm. We re-tried CycleGAN
+  on human-cartoon-transformation to better understand the logic of cycleGAN. There are many updated imporved methods on image style transfer.
+  </p>
+
+
+  <h2>Weather Recognition and Classification, with image style transfer</h2>
+  <p></p>
+  <a type="button" class="btn btn-outline-secondary" href="https://github.com/ChenhaoZhu/Weather_Classification">Github Codes</a>
+  <p></p>
+  <p>Our group intends to classify weather images first, and then convert severe weather images into clear images that are easier to identify.
+    Our project has a wide range of application scenarios like autonomous driving.
+    Specifically, Severe weather phenomena have various negative effects on transportation.
+    As a source of information for vehicle sensors, the state of the environment is directly influenced by weather conditions.
+    For camera-led multi-sensor fusion system which is one of the mainstream, it is particularly important to recognize the weather through images and obtain surrounding information based on clear pictures.</p>
+    <p>For one try of testing, we used yoturb video depend on each weather condition. Because we are using our model to real-world, we need to see how our model perform on the real-world weather classification at driving.</p>
+
+
+
+    </div>
+
+<div class="footer-padding"></div>
+  <div class="footer">
+    <p>Made by Knorth Zhu</p>
+  </div>
+<!-- </div> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+<script src="index.js"></script>
+</body>
+</html>
